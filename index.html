@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog API with Styled Dropdown</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Select a Dog Breed</h1>
+    <div class="dropdown-container">
+        <select id="breed-dropdown" class="styled-dropdown">
+            <option>Select a breed</option>
+        </select>
+    </div>
+
+    <h1>Select a Sub-Breed</h1>
+    <div class="dropdown-container">
+        <select id="sub-breed-dropdown" class="styled-dropdown" disabled>
+            <option>Select a sub-breed</option>
+        </select>
+    </div>
+
+    <div id="dog-image" class="image-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
